@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPodcast, faFlag, faFutbol, faTransgender, faFacebook} from '@fortawesome/free-solid-svg-icons'
+import { faPodcast, faFlag, faFutbol, faTransgender,} from '@fortawesome/free-solid-svg-icons'
 import React, { useEffect, useState } from 'react';
 import './TeamDetails.css';
 import facebook from '../../image/Facebook.png';
@@ -19,7 +19,7 @@ const TeamDetails = () => {
         fetch(url)
         .then(response => response.json())
         .then(data => setLeague(data.teams[0]))
-    }, [])
+    }, [idTeam])
 
     return (
         <div className="container-fluid team-details">
@@ -63,9 +63,9 @@ const TeamDetails = () => {
                 </div>
                 </div>
                 <div className="text-center pt-5 social">
-                    <a href={`https://${league.strTwitter}`} target="_blank"><img src={twitter} alt=""/></a>
-                    <a href={`https://${league.strFacebook}`}target="_blank"><img src={facebook} alt=""/></a>
-                    <a href={`https://${league.strYoutube}`}target="_blank"><img src={youtube} alt=""/></a>
+                    <a href={`https://${league.strTwitter}`}><img src={twitter} alt=""/></a>
+                    <a href={`https://${league.strFacebook}`}><img src={facebook} alt=""/></a>
+                    <a href={`https://${league.strYoutube}`}><img src={youtube} alt=""/></a>
                 </div>
             </div>         
         </div>
