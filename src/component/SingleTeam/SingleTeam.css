@@ -1,0 +1,25 @@
+.background{
+    background:#212F3D ;
+}
+.header-img{
+    background: url(../../image/banner2.jpg) no-repeat center;
+    width:100%;
+    background-size:cover;
+    height:350px;
+}
+.header-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 170px;
+    font-size: 50px;
+}
+.card{
+    border-radius: 10px;
+}
+.heading{
+    color: #CCD1D1;
+    font-size: 35px;
+}
+.warning{
+    color: red;
+}

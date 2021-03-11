@@ -1,0 +1,40 @@
+.banner{
+    background: url(../../image/banner.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+.banner img{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
+.details{
+    background: #273746;
+}
+.details h2{
+    color: goldenrod;
+    margin-left: 100px;
+}
+.social {
+    margin: 0 auto;
+}
+
+.team-details p{
+    color: #F2F4F4;
+}
+.conditional-img img{
+    width: 70%;
+    display: block;
+    margin: 20px auto;
+}
+.team-info {
+    margin-top: 20px; 
+}
+.team-info p{
+    margin-left: 100px;
+}
+.details-border{
+    border: 1px solid #1A5276;
+    background-color: #1A5276;
+    border-radius:10px;
+}
