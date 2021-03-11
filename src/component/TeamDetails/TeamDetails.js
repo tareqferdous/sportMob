@@ -62,7 +62,9 @@ const TeamDetails = () => {
                     </div>                   
                 </div>
                 </div>
+                
                 <div className="text-center pt-5 social">
+                  <h3 className="text">Get in touch with - {league.strAlternate}</h3>
                     <a href={`https://${league.strTwitter}`}><img src={twitter} alt=""/></a>
                     <a href={`https://${league.strFacebook}`}><img src={facebook} alt=""/></a>
                     <a href={`https://${league.strYoutube}`}><img src={youtube} alt=""/></a>

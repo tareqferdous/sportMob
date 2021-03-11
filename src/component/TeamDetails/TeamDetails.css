@@ -18,6 +18,12 @@
 .social {
     margin: 0 auto;
 }
+.social img{
+    width: 20%;
+}
+.social h3{
+    color: #fff;
+}
 
 .team-details p{
     color: #F2F4F4;
