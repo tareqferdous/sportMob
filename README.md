@@ -5,3 +5,9 @@ OverView: Sport Mob is a website build with react where we can visualize some fo
 ## Features
 * Show teams under a specific league and
 * View all info about a team
+
+## Technology Used
+* React
+* JavaScript
+* ES6
+* Bootstrap
